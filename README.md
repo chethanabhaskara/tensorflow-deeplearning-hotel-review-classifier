@@ -13,11 +13,10 @@ Output layer - Positive, negative/ Spam, not spam
 The dataset is visually inspected by using some random random words to check their significance in classification 
 For example - noun words like 'furniture' or 'location' do not really help in deciding whether a review is positive/negative or spam/real. It can further observed that adjectives play a more significant role in distinguising positive/negative and spam/not spam. 
 
-To coveniently plot, we bring down the large number of features down to 2 features using tsne_embeds.pdf . 
-The resulting 2D features are plotted against a 2D graph. 
-One of the plots obtained are in tsne
+To coveniently plot, we bring down the large number of features down to 2 features using tsne. 
+The resulting 2D features are plotted against a 2D graph. The t-SNE plot is uploaded as tsne_embeds.pdf 
 
-### Observations
+### Observations from the t-SNE plot
 - The dots in color blue: positive and orange:  negative
 - The other dots in green->location and red->furniture. 
 - We can observe that a clear distinction exists between the positive and negative dots. 
