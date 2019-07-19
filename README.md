@@ -22,5 +22,5 @@ The resulting 2D features are plotted against a 2D graph. The t-SNE plot is uplo
 - We can observe that a clear distinction exists between the positive and negative dots. 
 - The dots that depict location and furniture are mixed and scattered -> these features do not help towards classification. 
 
-![GitHub Logo](/tsne_embeds.pdf)
-Format: ![Alt Text](url)
+!(/tsne_embeds.png)
+Format: !(url)
